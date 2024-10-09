@@ -1,0 +1,53 @@
+Name,TTL,Class,Type,Target
+;,Zone,file,for,dynamicmarching.com
+dynamicmarching.com.,86400,IN,SOA,ns8349.hostgator.com. root.gator4175.hostgator.com. ( 2024090902 86400 $
+dynamicmarching.com.,86400,IN,NS,ns8349.hostgator.com.
+dynamicmarching.com.,86400,IN,NS,ns8350.hostgator.com.
+dynamicmarching.com.,14400,IN,A,108.167.142.65
+localhost,14400,IN,A,127.0.0.1
+dynamicmarching.com.,14400,IN,MX,20 dynamicmarching.com.
+mail,14400,IN,CNAME,dynamicmarching.com.
+www,14400,IN,CNAME,flash.funnels.msgsndr.com.
+ftp,14400,IN,CNAME,dynamicmarching.com.
+dynamicmarching.com.,14400,IN,TXT,"""v=spf1 a mx include:websitewelcome.com ~all"""
+webdisk,14400,IN,A,108.167.142.65
+dynamicmarching.com.,14400,IN,MX,1 aspmx.l.google.com.
+dynamicmarching.com.,14400,IN,MX,5 alt1.aspmx.l.google.com.
+dynamicmarching.com.,14400,IN,MX,5 alt2.aspmx.l.google.com.
+dynamicmarching.com.,14400,IN,MX,10 alt3.aspmx.l.google.com.
+dynamicmarching.com.,14400,IN,MX,10 alt4.aspmx.l.google.com.
+cpcalendars,14400,IN,A,108.167.142.65
+cpcontacts,14400,IN,A,108.167.142.65
+whm,14400,IN,A,108.167.142.65
+webmail,14400,IN,A,108.167.142.65
+cpanel,14400,IN,A,108.167.142.65
+_cpanel-dcv-test-record,14400,IN,TXT,_cpanel-dcv-test-record=XpKWfNWzggwH1xtknH7dyuA_JrU08ZHgC7aSVSmGg6a7n8DTp3OHJmLLfjd3gRta
+_acme-challenge.autodiscover,14400,IN,TXT,CpwWBC1PhcGCkoBwt_AnN6NGhpOsXj-_gRgs4lScJ_4
+_6b34ff37fb098e43812a457f09b75144,14400,IN,CNAME,d9105fbe66da0e4c81a6d58b148fb72e.352091acfc677904e9e454113d74f0a7.63bfa0d634b8c53226ff.comodoca.com.
+dwcar7ghy22nx8zer8ly.shop,14400,IN,CNAME,verify.squarespace.com.
+_acme-challenge.www.shop,14400,IN,TXT,5lMM9Qn_CAu_1lz4MzNO2PY6FC0_aQUdXjHAEomrVPI
+_acme-challenge.shop,14400,IN,TXT,l1TJca6ktwSMhCWQ9cAgZjNCCtLkCQzekPreczJkQq8
+squarespace,14400,IN,CNAME,squarespace-domainkey.squarespace-mail.com.
+_acme-challenge,14400,IN,TXT,QfZt59clFG_3yDI39iXJbyTatAnWzJvPGkakXs30ZEI
+_c019986b4271c669c8e3770dba39b9b2,14400,IN,CNAME,396969329bd2395e5667ef70488c60e3.611dbed65d345fda8865b3715fb915fd.ed8e0bb369106333063e.comodoca.com.
+_486412f19991c1e2c29bfcd702239698,14400,IN,CNAME,9f0c0409c1ccc0448e2962ed90eda856.73e1bad8b54c2372839c99b84a044bef.7f59bf0eee13e863b5ab.comodoca.com.
+_8b98b5ca0689c34605e7174944c1bc3b,14400,IN,CNAME,348826a0e0d186a3cf6bbfea68495dfc.5ad57c836d5df9faefd4735c05740e34.3d10f69d38eca91e1575.comodoca.com.
+_a1101b9e3bd6d1c278357657e67780c4,14400,IN,CNAME,956276e208bb523d106bdeef05cfb99b.100fcbab80b6c9c633fd514c9353e8fc.1a701a899df94d2b12ef.comodoca.com.
+_8bcea268498b626f3146ba39d1d3d7a4,14400,IN,CNAME,d6e86eb464c91c6258440a4e4c7cae4a.9da223667254041871848f79fa808927.f8de2f66f0eec24dc74f.comodoca.com.
+_8ab684f605edc07f39c7662add45a63b,14400,IN,CNAME,6b71d207fe4a40d9a50c179d832bbbd6.63ec28a0381da3a7e599f2fa5b7d7341.9494afd701f50983af18.comodoca.com.
+_0a111eed361ab22be38645604ba027e2,14400,IN,CNAME,a4a87bad238a30a48fae22619758c2c9.843825fb88bd6f676ca28570bb763f7a.88b3023a8746223f4ee8.comodoca.com.
+_af2a0eaea5289c2629777779b0767b10,14400,IN,CNAME,e8543af0116cc3d227545d53309346e2.40f83a6610e97f0b8afd8dfd4f8341b8.dbd69decfcc3e6af30db.comodoca.com.
+_cc21a3f0b3ea9294466cbfa801b29188,14400,IN,CNAME,65814692e814412ebf51a4fe0a9157a3.0a681a006190dd20e92bb081793ca9f0.ca1823912ab075670f8e.comodoca.com.
+_75de9ed1a8cfd20e9177f6e0413c757c,14400,IN,CNAME,74ba1998715019afb042fc9e3dfc8059.c39cd624da17efe74a85790d78ba01ee.cb38c9cc08c12d0fd19f.comodoca.com.
+_de4605d9f8ee67bbc0092efddfdf7101,14400,IN,CNAME,a162a2b9392fcafed5af081528c6829c.12d5507842c5ca130d9efeb4492151ad.d6abe9e9b65694a2ebf0.comodoca.com.
+_e2da8f3e2265272e5be22c3751ccede2,14400,IN,CNAME,c2f6ddcf88d987f27502207b8a873830.9e0f9cc88ab7c9b01daa9982e9bcbd39.c13f2d15b50e7dd23d9f.comodoca.com.
+_c9fd641fe56614b61670488fefd23c3d,14400,IN,CNAME,40a84e552164c7d9048e82fd52151bed.74677de8ece8547fa3dbbe02d186343f.a6a664b5c1a1d5572770.comodoca.com.
+_89706c3509ce74746146b9c66b5e688c,14400,IN,CNAME,292ea395a6ea1969bfc6905ebe5e024f.8e837d873d1ba6814da7636f66581b88.320fd364a1dffa5267b8.comodoca.com.
+_b701804a4049f91ad85b839b374b4b14,14400,IN,CNAME,6b0de8f134462e541c6187cc61899833.c178ef3a5f84904e66a24c29470d6cb1.7417db2b3a3dc989c70b.comodoca.com.
+_53e5062a04a079a854369cc92f2db214,14400,IN,CNAME,8e056d81051dd0f1114d3b38ee7faf78.a549ea2415a7115b7d0c0fcf3d5eab07.08f56c1688dfdd0e9c0c.comodoca.com.
+_2a50319febfc76ed8b2cbe6d141b43b5,14400,IN,CNAME,a8fa8a54c6d2e39aa26708354dca62d9.11ceee500389354053f3c736ed95b032.dab922362ac34030e38a.comodoca.com.
+_5bca54405205c43c5e8dcb5fee7af579,14400,IN,CNAME,5fea7a7cbf57b7a39a3c469607116aa7.69110086837bb46b9db1198a84b1109f.be7e3fd6edb511974bcc.comodoca.com.
+_acc8b6e8a44bf66e328df316ba0cf2f0,14400,IN,CNAME,72fc6761679d05696b00d8238d8ab0c4.27689aa033febfd9c15cae04fd6b0927.066aa60b632717ccc6d4.comodoca.com.
+_8e894c3b734e566208807dd94afc0c18,14400,IN,CNAME,a24e840600dcee2a6830df9d715d66d6.6aab3545ce535c34c8dbf8d123f51de9.9f6b9710272eb49b1122.comodoca.com.
+_59adc97511eb69311b7f8e657a1805dd,14400,IN,CNAME,a6f757dc4a3a291b5454aaf7b48abad2.0d416522ee994bdb43a24db0151964f5.9aae7ea194734992a6c5.comodoca.com.
+_dmarc,14400,IN,TXT,v-DMARC1\;p=none

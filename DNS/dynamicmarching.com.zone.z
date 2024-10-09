@@ -1,0 +1,37 @@
+; Zone file for dynamicmarching.com
+$TTL 14400
+@    86400   IN      SOA     ns8349.hostgator.com. root.gator4175.hostgator.com. (
+                2024090902 ; Serial
+                86400      ; Refresh
+                7200       ; Retry
+                3600000    ; Expire
+                86400 )    ; Minimum TTL
+
+@    86400   IN      NS      ns8349.hostgator.com.
+@    86400   IN      NS      ns8350.hostgator.com.
+@    14400   IN      A       108.167.142.65
+localhost 14400   IN      A       127.0.0.1
+@    14400   IN      MX      20      dynamicmarching.com.
+mail 14400   IN      CNAME   dynamicmarching.com.
+www  14400   IN      CNAME   flash.funnels.msgsndr.com.
+ftp  14400   IN      CNAME   dynamicmarching.com.
+@    14400   IN      TXT     "v=spf1 a mx include:websitewelcome.com ~all"
+webdisk 14400   IN      A       108.167.142.65
+@    14400   IN      MX      1       aspmx.l.google.com.
+@    14400   IN      MX      5       alt1.aspmx.l.google.com.
+@    14400   IN      MX      5       alt2.aspmx.l.google.com.
+@    14400   IN      MX      10      alt3.aspmx.l.google.com.
+@    14400   IN      MX      10      alt4.aspmx.l.google.com.
+cpcalendars 14400   IN      A       108.167.142.65
+cpcontacts  14400   IN      A       108.167.142.65
+whm  14400   IN      A       108.167.142.65
+webmail 14400   IN      A       108.167.142.65
+cpanel  14400   IN      A       108.167.142.65
+_cpanel-dcv-test-record 14400   IN      TXT     "_cpanel-dcv-test-record=XpKWfNWzggwH1xtknH7dyuA_JrU08ZHgC7aSVSmGg6a7n8DTp3OHJmLLfjd3gRta"
+_acme-challenge.autodiscover 14400   IN      TXT     "CpwWBC1PhcGCkoBwt_AnN6NGhpOsXj-_gRgs4lScJ_4"
+_6b34ff37fb098e43812a457f09b75144 14400   IN      CNAME   d9105fbe66da0e4c81a6d58b148fb72e.352091acfc677904e9e454113d74f0a7.63bfa0d634b8c53226ff.comodoca.com.
+dwcar7ghy22nx8zer8ly.shop 14400   IN      CNAME   verify.squarespace.com.
+_acme-challenge.www.shop 14400   IN      TXT     "5lMM9Qn_CAu_1lz4MzNO2PY6FC0_aQUdXjHAEomrVPI"
+_acme-challenge.shop 14400   IN      TXT     "l1TJca6ktwSMhCWQ9cAgZjNCCtLkCQzekPreczJkQq8"
+squarespace 14400   IN      CNAME   squarespace-domainkey.squarespace-mail.com.
+_acme-challenge 14400   IN      TXT     "QfZt59clFG_3yDI39iXJbyTatAnWzJvPGkakXs30ZEI"
